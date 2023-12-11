@@ -19,6 +19,12 @@ We looked into the idea and saw that planes like this existed in real life alrea
 From the start we knew there would be a few major challenges: 
 The software control would be tough. We realized early on that rc transmitters and recievers are at least $50 each, and if our groups were going to work together, it'd be cheaper to just get one. The plan as of writing is this: Vinnie and Matthias's team has the transmitter, and the reciever is on their plane. The planes will have wifi connection so that they are communicating with each other and flying as one plane. Once we have reached our desired altitude, we will send the signal for the planes to split, and they will physically detatch and start flying as 2 separate planes. From here, M & V's plane will continue to fly and be controlled like normal, and they will land it manually. Our group's will switch to an autonomous mode when it disconnects, and will land itself in a (hopefully) graceful manner. 
 
+We're looking to 3d print our plane. At first we were going to make it out of foamboard or balsa wood and plastic wrap, but printing the parts would make attaching things like servos and the wing connections easier, as well as being easily and precisely repairable and iterable. We're thinking PETG as it's quite tough, but if we need it lighter we can try out lightweight or foaming PLA.
+
+**Success** would be creating anything that can get into the sky and get down withough being completely destroyed. Even if it snaps off a wing on landing, if it is able to fly up and make a controlled descent, that will be a resounding success. If twin plane idea were to fall apart, we still should have a functional single plane that we can continue our idea with, and hopefully make fly, which, although different from our intended plan, would be okay if it were able to fly and collect data.
+
+Since we're making a plane that can fly autonomously, we need to account for it going rogue. There are a few safety measures we can put in place to reduce the chances of the plane causing damage, such as making sure we have a large clear area to test in, a time limit on the motor power, and at least for the conjoined system, a kill switch.
+
 ### Required Proof of Concepts
 - **Planes can fly on their own**
   Creating a decent rc plane is a challenge on its own, so we need to be able to make a functional plane to begin with. RC planes often use these fancy lightweight brushless motors, and we don't have the budget for that. We're going to try using a normal brushed dc motor. Granted, the ones we have are bigger than usual, but we will need to conduct some tests to see if they can provide enough thrust, or if I'll have to bring in big 12V I have.
@@ -29,3 +35,4 @@ The software control would be tough. We realized early on that rc transmitters a
 
 - **Software Decoupling**
   The planes have to transition from flying as one, to flying as two. We have to figure out not only this transition, but how they can fly while conjoined. Making the plane fly autonomously will also be a challenge to say the least.
+
