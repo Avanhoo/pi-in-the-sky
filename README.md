@@ -54,5 +54,7 @@ Since we're making a plane that can fly autonomously, we need to account for it 
 | W13: Mar 25-28 | Ready to fly!                                                |
 
 **CD** = Concept and Design time, doing proof of concepts, coding, and designing the aircraft
-**P** = Prototyping time,
+
+**P** = Prototyping time, testing and iterations
+
 **F** = Finalizing time, prototype complete
