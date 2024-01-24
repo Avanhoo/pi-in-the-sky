@@ -114,13 +114,18 @@ Build:
 
 Electronics:
 1x Pi Pico W
+1x LiPo or LiIon battery
+1x 3.7 to 3.3V battery regulator
 1x Prototyping shield
 1x Adafruit MPU 6050 IMU
 1x Adafruit ultimate GPS module
 1x Adafruit MPL3115A2 Temperature and Pressure sensor
 1x Button
 1x LED
+1x Relay or H-bridge
 3x 180 Micro Servos
 1x DC Motor
+
+Other team will have RC transmitter and reciever
 
 
