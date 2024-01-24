@@ -61,8 +61,9 @@ Since we're making a plane that can fly autonomously, we need to account for it 
 
 ### Pseudocode
 ```python
+import necessary libs
 Connect to other Pico
-while not button held:
+while not button held: # coupling loop
 if button pressed:
 	toggle coupling system
 Lock coupling system
@@ -76,7 +77,7 @@ if “Split” signal received:
 	Bank and drop away
 	Motor off
 	exit loop
-def Autonomous Flight
+while Autonomous Flight:
 Maintain constant left bank angle (PID) 
 Maintain constant drop speed (PID) # Plane will spiral down slowly
 if altitude < 15ft and facing correct direction:
