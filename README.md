@@ -60,6 +60,7 @@ Since we're making a plane that can fly autonomously, we need to account for it 
 **F** = Finalizing time, prototype complete
 
 ### Pseudocode
+'''
 Connect to other Pico
 while not button held:
 if button pressed:
@@ -87,3 +88,4 @@ if altitude < 15ft and facing correct direction:
 		if still:
 			Stop data collection
 			End program
+'''
