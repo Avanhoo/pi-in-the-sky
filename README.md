@@ -47,16 +47,16 @@ Since we're making a plane that can fly autonomously, we need to account for fly
 | -------------- | ------------------------------------------------------------ |
 | W1: Jan 2-5 **CD** | Working wifi connection between picos                    |
 | W2: Jan 8-12   | Coupling system tested                                       |
-| W3: Jan 15-19  | Completed first design for plane, completed code             |
-| W4: Jan 22-25 **P**| First assembly and ground tests                          |
-| W5: Jan 29-2   | Iterate and fix issues with first build                      |
-| W6: Feb 5-8    | Rebuild and retest                                           |
-| W7: Feb 12-16  | Test autonomous flight and control with dropped glide tests  |
+| W3: Jan 15-19  | Work Time             					|
+| W4: Jan 22-25  | Completed first design for plane, completed code             |
+| W5: Jan 29-2   | Test components without plane                                |
+| W6: Feb 5-8    | run through flight simulation on ground                      |
+| W7: Feb 12-16  **P**| Test autonomous flight and control with dropped glide tests  |
 | W8: Feb 20-23  | Tweak controls and troubleshoot                              |
 | W9: Feb 26-29  | Ground test tandem controls and troubleshoot communications  |
-| W10: Mar 4-8 **F** | Test tandem flight and decoupling                        |
+| W10: Mar 4-8   | Test tandem flight and decoupling                            |
 | W11: Mar 114   | Troubleshoot / rebuild after test                            |
-| W12: Mar 18-22 | Final tweaks and building                                    |
+| W12: Mar 18-22 **F**| Final tweaks and building                               |
 | W13: Mar 25-28 | Ready to fly!                                                |
 
 **CD** = Concept and Design time, doing proof of concepts, coding, and designing the aircraft
