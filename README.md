@@ -58,3 +58,32 @@ Since we're making a plane that can fly autonomously, we need to account for it 
 **P** = Prototyping time, testing and iterations
 
 **F** = Finalizing time, prototype complete
+
+### Pseudocode
+Connect to other Pico
+while not button held:
+if button pressed:
+	toggle coupling system
+Lock coupling system
+	
+loop Tandem Flight
+# The master pico will convert the inputs to work on a twin plane, sending only the necessary commands to the servant pico.
+	Receive commands
+	Execute commands
+if “Split” signal received:
+	Physical decouple
+	Bank and drop away
+	Motor off
+	exit loop
+def Autonomous Flight
+Maintain constant left bank angle (PID) 
+Maintain constant drop speed (PID) # Plane will spiral down slowly
+if altitude < 15ft and facing correct direction:
+	Straighten out
+	Maintain heading and slower altitude drop (PID)
+	if altitude < 2ft:
+		Flair nose
+		Maintain flared nose 
+		if still:
+			Stop data collection
+			End program
