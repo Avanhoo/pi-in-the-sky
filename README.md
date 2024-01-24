@@ -23,7 +23,13 @@ We're looking to 3d print our plane. At first we were going to make it out of fo
 
 **Success** would be creating anything that can get into the sky and get down withough being completely destroyed. Even if it snaps off a wing on landing, if it is able to fly up and make a controlled descent, that will be a resounding success. If twin plane idea were to fall apart, we still should have a functional single plane that we can continue our idea with, and hopefully make fly, which, although different from our intended plan, would be okay if it were able to fly and collect data.
 
-Since we're making a plane that can fly autonomously, we need to account for it going rogue. There are a few safety measures we can put in place to reduce the chances of the plane causing damage, such as making sure we have a large clear area to test in, a time limit on the motor power, and at least for the conjoined system, a kill switch.
+### Risk
+Since we're making a plane that can fly autonomously, we need to account for flyaways. There are a few other safety measures we can put in place to reduce the chances of the plane causing damage:
+- A large clear area to test in
+- Preflight checks of all systems and parts
+- Code that will stop the motor in the plane exits a defined area
+- Code that will stop the motor if the plane is in the sky for too long
+- A power kill switch on the remote controller
 
 ### Required Proof of Concepts
 - **Planes can fly on their own**
@@ -62,7 +68,9 @@ Since we're making a plane that can fly autonomously, we need to account for it 
 ### Pseudocode
 ```python
 import necessary libs
+
 Connect to other Pico
+
 while not button held: # coupling loop
 if button pressed:
 	toggle coupling system
@@ -90,3 +98,29 @@ if altitude < 15ft and facing correct direction:
 			Stop data collection
 			End program
 ```
+### BOM
+Build:
+1x Fuselage
+1x Left wing
+1x Right wing
+1x Elevator
+1x Vertical stabilizer
+2x Front wheel brackets
+2x Big wheels
+1x Back wheel bracket
+2x Small wheel
+1x Nose
+1x Propellor
+
+Electronics:
+1x Pi Pico W
+1x Prototyping shield
+1x Adafruit MPU 6050 IMU
+1x Adafruit ultimate GPS module
+1x Adafruit MPL3115A2 Temperature and Pressure sensor
+1x Button
+1x LED
+3x 180 Micro Servos
+1x DC Motor
+
+
