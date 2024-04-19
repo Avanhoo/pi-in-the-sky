@@ -10,7 +10,32 @@ The rotation approximation code works by using the accelerometers in the gyrosco
 
 ## Build
 
+When we first got the shell of the plane together we were stoked as it looked fantastic. As we started to get the electronics in we became more and more worried about the length of the wings. The plane already weighed **insert**, and with its short wings it would have had to go extremely fast to stay in the air. So we lengthened the wings - *a lot*:
+
+**picture**
+
+Fitting all of the modules into the plane was a serious challenge. The individual parts that needed to fit in the feuselage were: 
+- Pico with prototyping board
+- 3.7v Li-Po, 5v battery connector, and 3.3v step down module
+- RC receiver module
+- 850mah 3s Li-Po
+- Motor ESC
+- Long, delicate wires
+
+All of these components together took up a lot of space, and we were barely able to close the plane's top. The problem arose from the fact that we hadn't planned out the interior. Though we had a mount for the pico, the rest was simply crammed in, meaning it was very easy to unplug something accidentally, and very hard to access any important components.
+
+The RC Module we used was the [Flysky -i6X 2.4GHz 10ch Afhds 2A RC with -iA10B Receiver](https://www.flysky-cn.com/fsi6x). It was the cheapest programmable transciever that came with a reciever, and it worked wonderfully for all of our needs. It really took the pressure off of us to not have to worry about another part of the project being disfuctional.
+
 ## Results
+
+The First prototype didn't fly. Maybe we should have known from the high weight and small thrust and lift, but our first and only test ended up in the ground:
+
+**video**
+
+There were a few key leaned lessons.
+1. The balance of the plane needs to be planned out *before* it is assembled. You need to have at least a basic idea of how the weigh and COM will play out. In the video of our 1st prototype you can see that it had lots of weight and lift in the front, but nothing in the back; the tail falls and the plane stalls.
+2. Smaller and lighter is better. We knew this innately when starting a plane project, but we didn't realize the extent to which weight mattered. A smaller plane can go slower, meaning better control and less risk of collisions.
+3. 
 
 # Second Prototype
 
