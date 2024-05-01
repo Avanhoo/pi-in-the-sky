@@ -43,6 +43,8 @@ There were a few key leaned lessons.
 
 ## Code
 
-Where I had focused on the *** of the code on the first prototype, I shifted to woking on the data storage and analysis during this time. I switched to using new lines as separators instead of commas, and made it so that the recording program would only save a data point every set interval, instead of randomly, hundreds of times per second. On the data analysis side I created a program which reads the data.csv file and visualizes it at a 1:1 speed. I was going to graph it at first, but decided on using pygame to visualize each axis instead.
+Where I had focused on the data filtering part of the code on the first prototype, I shifted to woking on data storage and analysis during this time. I switched to using new lines as separators instead of commas in my .csv file, and made it so that the recording program would only save a data point every set interval, instead of randomly, hundreds of times per second. On the data analysis side I created a program which reads the data.csv file and visualizes it at a 1:1 speed. I was going to graph it at first, but decided on using pygame to visualize each axis instead.
+
+Once the graph was working I wanted to make the data smoother, as even with the recording program running at maximum speed the data was coming in at ~0.3 second intervals. To do this I used scipy's spline interpolation. I created a spline for each recording axis, and switched from using the recording's time to a set delta time every cycle. This leaves me with a buttery smooth visualization of the plane's flight.
 
 
