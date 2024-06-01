@@ -116,7 +116,7 @@ As previously mentioned it was tail-heavy. You can see in the video how it immed
 
 Though the plane hardly flew, it taught us a lot. Firstly we realized our design could actually work. The plane wanted to be in the air, and it had a good chance of flight if we could get it started. It also tested our recording capability in the field, to a resounding success. The entire thing was recorded, from when we picked up the plane to when we picked up its pieces. The recording could be played back and matched ot the video to see how the plane moved.
 
-Though our plan's time in the air was short-lived, it taught us long-lasting and invaluable lessons about planning, design, and logistics. Once we got the design down for our big test we were as ready as we would ever be, and although an tragicly premature grounding may have destroyed our chances of real flight, it led us to a place where we could easily have a fully functional plane data system.
+Though our plan's time in the air was short-lived, it taught us long-lasting and invaluable lessons about planning, design, and logistics. Once we got the design down for our big test we were as ready as we would ever be, and although an tragicly premature grounding may have destroyed our chances of real flight, it led us to a place where we could easily have a fully functional plane data system based off of all our work and creation.
 
 <!---
 (and if we do a sucessful launch)
