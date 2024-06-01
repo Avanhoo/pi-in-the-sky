@@ -41,6 +41,35 @@ There were a few key leaned lessons.
 
 ## Design
 
+### CAD
+
+This version of the plane was intended to be a much more realistic design for a remote control plane. To this end, the design philosophy was to make a plane that was much more convenient for assembly and tinkering purposes, as well as having a much better chance of actually flying. 
+
+The general idea for the assembly of this version was to have a front and a rear subassembly, which would be connected via carbon fiber tubes, and the wing would also be connected in a similar fashion. 
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/sketch.png?raw=true" width="800"> 
+
+Like this!
+
+The first part I worked on was the wings. I made the airfoil profile, which would just be a spar that we would print many times and stack on a rod, to be covered with some sort of film to make a complete wing.
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/airfoil.png?raw=true" width="800"> 
+Here's the airfoil.
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/wing.png?raw=true" width="800"> 
+
+And here's the wing. 
+
+After making the wing, I worked on the rear assembly. The bulk of the rear assembly is the two rear wings, which are connected to the main rod with another part. 
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/rearwings.png?raw=true" width="800"> 
+
+Connected to each wing will be a flat rudder piece, which will be connected to the servos in the front assembly with a fishing line. 
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/rudder.png?raw=true" width="800"> 
+
+The final and most complicated step for the CAD was to make the front assembly. This is the part that would house all the electronics, so getting a good housing that securely holds each component while also being convenient to tinker with would be tricky. In the end, I decided that the biggest components (except for the servos) would be connected to the housing with magnets, so they could be easily removed and replaced with minimal effort. 
+
 ## Code
 
 Where I had focused on the data filtering part of the code on the first prototype, I shifted to woking on data storage and analysis during this time. I switched to using new lines as separators instead of commas in my .csv file, and made it so that the recording program would only save a data point every set interval, instead of randomly, hundreds of times per second. On the data analysis side I created a program which reads the data.csv file and visualizes it at a 1:1 speed. I was going to graph it at first, but decided on using pygame to visualize each axis instead.
