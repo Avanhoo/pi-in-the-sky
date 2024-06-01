@@ -70,6 +70,8 @@ Connected to each wing will be a flat rudder piece, which will be connected to t
 
 The final and most complicated step for the CAD was to make the front assembly. This is the part that would house all the electronics, so getting a good housing that securely holds each component while also being convenient to tinker with would be tricky. In the end, I decided that the biggest components (except for the servos) would be connected to the housing with magnets, so they could be easily removed and replaced with minimal effort. 
 
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/bodydiagram.png?raw=true" width="800"> 
+
 ## Code
 
 Where I had focused on the data filtering part of the code on the first prototype, I shifted to woking on data storage and analysis during this time. I switched to using new lines as separators instead of commas in my .csv file, and made it so that the recording program would only save a data point every set interval, instead of randomly, hundreds of times per second. On the data analysis side I created a program which reads the data.csv file and visualizes it at a 1:1 speed. I was going to graph it at first, but decided on using pygame to visualize each axis instead.
