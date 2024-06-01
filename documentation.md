@@ -68,9 +68,17 @@ Connected to each wing will be a flat rudder piece, which will be connected to t
 
 <img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/rudder.png?raw=true" width="800"> 
 
-The final and most complicated step for the CAD was to make the front assembly. This is the part that would house all the electronics, so getting a good housing that securely holds each component while also being convenient to tinker with would be tricky. In the end, I decided that the biggest components (except for the servos) would be connected to the housing with magnets, so they could be easily removed and replaced with minimal effort. 
+The final and most complicated step for the CAD was to make the front assembly. This is the part that would house all the electronics, so getting a good housing that securely holds each component while also being convenient to tinker with would be tricky. In the end, I decided that the biggest components (except for the servos) would be connected to the housing with magnets, so they could be easily removed and replaced with minimal effort. The top cover is also connected with magnets and is much bigger than the previous design.
 
 <img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/bodydiagram.png?raw=true" width="800"> 
+
+The other big part of the front assembly is the joint that would connect the front, rear, and wing assemblies, which looks like this. 
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/connector.png?raw=true" width="800"> 
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/frontassembly.png?raw=true" width="800"> 
+
+Here's what the whole front assembly looks like without the cover on. 
 
 ## Code
 
