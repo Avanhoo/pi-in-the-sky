@@ -1,7 +1,5 @@
 # First Prototype
 
-## Design
-
 ## Code
 
 For the first few weeks of the prototype we still were planning on doing a twin plane project with another group. Thus the code was designed to control the plane autonomously after it separated from its twin. When we switched over to a RC plan I abandoned the PID for the control surfaces, though most of my previous work could be repurposed. Now that the pico only has to worry about logging data, the determining the rotation of the airplane and saving that data becomes the most important part of the programming.
@@ -10,9 +8,9 @@ The rotation approximation code works by using the accelerometers in the gyrosco
 
 ## Build
 
-When we first got the shell of the plane together we were stoked as it looked fantastic. As we started to get the electronics in we became more and more worried about the length of the wings. The plane already weighed **insert**, and with its short wings it would have had to go extremely fast to stay in the air. So we lengthened the wings - *a lot*:
+When we first got the shell of the plane together we were stoked as it looked fantastic. As we started to get the electronics in we became more and more worried about the length of the wings. The plane already weighed ~500g, and with its short wings it would have had to go extremely fast to stay in the air. So we lengthened the wings - *a lot*:
 
-**picture**
+![build1](/images/1stBuild.jpg)
 
 Fitting all of the modules into the plane was a serious challenge. The individual parts that needed to fit in the feuselage were: 
 - Pico with prototyping board
@@ -30,7 +28,7 @@ The RC Module we used was the [Flysky -i6X 2.4GHz 10ch Afhds 2A RC with -iA10B R
 
 The First prototype didn't fly. Maybe we should have known from the high weight and small thrust and lift, but our first and only test ended up in the ground:
 
-**video**
+![1st Flight](/images/1stFlight.gif)
 
 There were a few key leaned lessons.
 1. The balance of the plane needs to be planned out *before* it is assembled. You need to have at least a basic idea of how the weigh and COM will play out. In the video of our 1st prototype you can see that it had lots of weight and lift in the front, but nothing in the back; the tail falls and the plane stalls.
