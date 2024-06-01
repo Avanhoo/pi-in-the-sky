@@ -37,9 +37,7 @@ There were a few key leaned lessons.
 
 # Second Prototype
 
-## Design
-
-### CAD
+## CAD
 
 This version of the plane was intended to be a much more realistic design for a remote control plane. To this end, the design philosophy was to make a plane that was much more convenient for assembly and tinkering purposes, as well as having a much better chance of actually flying. 
 
