@@ -88,5 +88,13 @@ Where I had focused on the data filtering part of the code on the first prototyp
 
 Once the graph was working I wanted to make the data smoother, as even with the recording program running at maximum speed the data was coming in at ~0.3 second intervals. To do this I used scipy's spline interpolation. I created a spline for each recording axis, and switched from using the recording's time to a set delta time every cycle. This leaves me with a buttery smooth visualization of the plane's flight.
 
+## Build
+
+Getting the main body of the plane together was a total breeze (thanks Matthew!). The magnet idea made tinkering and removing parts incredibly easy and never led to any falling apart issues. This combined with the realization that the pico and flight electronics could remain separate systems (the esc could provide power to the reciever), made the body the easiest part.
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/2ndBuild.jpg?raw=true"> 
+
+It can't be all sunshine and rainbows, unfortunately, and we ran into trouble with the v-tail "ruddervators" (that's a real word). The use of fishing line to pull on the rudders was very finicky due to its unruly nature. We at first tried to pull on one side of each rudder, with a spring pulling back the other way. In practice, the springs were too strong and when the string was pulled around the rotation point the servo would lose any meaningful torque against the spring.
+
 
 
