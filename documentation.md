@@ -102,5 +102,26 @@ We had planned to wrap the wings in shrink wrap, but with that not working we op
 
 <img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/fullPlane.jpg?raw=true" width="600"> 
 
+## Testing
 
+Since the wings seemed to give us plenty of lift, we opted to do a launch from ground level as opposed to throwing it off of a hill.
 
+![test](/images/flightTest.gif)
+
+There were a few factors in the crash. 
+
+The plane was unweildly; you had to hold it between the 4 fishing lines and the tail would get in your way when throwing it. 
+
+As previously mentioned it was tail-heavy. You can see in the video how it immediately wants to pull up, which was also aided by an unfortunatly strong headwind. 
+
+Though the plane hardly flew, it taught us a lot. Firstly we realized our design could actually work. The plane wanted to be in the air, and it had a good chance of flight if we could get it started. It also tested our recording capability in the field, to a resounding success. The entire thing was recorded, from when we picked up the plane to when we picked up its pieces. The recording could be played back and matched ot the video to see how the plane moved.
+
+Though our plan's time in the air was short-lived, it taught us long-lasting and invaluable lessons about planning, design, and logistics. Once we got the design down for our big test we were as ready as we would ever be, and although an tragicly premature grounding may have destroyed our chances of real flight, it led us to a place where we could easily have a fully functional plane data system.
+
+<!---
+(and if we do a sucessful launch)
+"And you bet we did have a functional plane! It's not over, because we have:
+## The sucess"
+(we can only hope)
+(hello to whomever reads this)
+-->
