@@ -96,11 +96,11 @@ Getting the main body of the plane together was a total breeze (thanks Matthew!)
 
 It can't be all sunshine and rainbows, unfortunately, and we ran into trouble with the v-tail's "ruddervators" (that's a real word). The use of fishing line to pull on the rudders was very finicky due to its unruly nature. We at first tried to pull on one side of each rudder, with a spring pulling back the other way. In practice, the springs were too strong and when the string would hit the hinge and the servo would lose any meaningful torque against the spring. While we tried moving the string connection point on the rudder, we settled on using a piece of string on each side of the rudders. It was inconsistent because of the different tensions and lengths of the strings, but it worked.
 
-![ruddervators!](images/ruddervator.gif)
+![ruddervators!](/images/ruddervator.gif)
 
 We had planned to wrap the wings in shrink wrap, but with that not working we opted for a light fabric. It was lighter and easier than using paper or printed covers. Our one concern after attaching the wings was the center of mass. It was still a bit behind the wings because of how far out the tail was, but aside from weighing down the body with spare metal, there was nothing that could be done. Besides, the thing was a beauty:
 
-<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/fullPlane.jpg?raw=true" width="800"> 
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/fullPlane.jpg?raw=true" width="600"> 
 
 
 
