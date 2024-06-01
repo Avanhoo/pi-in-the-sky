@@ -26,7 +26,7 @@ The RC Module we used was the [Flysky -i6X 2.4GHz 10ch Afhds 2A RC with -iA10B R
 
 ## Results
 
-The First prototype didn't fly. Maybe we should have known from the high weight and small thrust and lift, but our first and only test ended up in the ground:
+The First prototype didn't fly. Maybe we should have known from the high weight and low thrust + lift, but our first and only test ended up in the ground:
 
 ![1st Flight](/images/1stFlight.gif)
 
