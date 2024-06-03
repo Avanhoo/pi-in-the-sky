@@ -1,3 +1,5 @@
+# Afton Van Hooser - Py in the sky project
+# file to be run on computer after data is collected. This visualizes the flight path in pygame, allowing for navigation with the arrow keys.
 from time import sleep, monotonic
 import numpy as np
 from scipy import interpolate
