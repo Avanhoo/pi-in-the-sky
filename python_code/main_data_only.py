@@ -1,4 +1,5 @@
 # type : ignore
+# Afton Van Hooser - Pi in the sky project
 # file to be run on pico when in flight. Collects rotational data and altitude.
 import board
 import busio
