@@ -1,4 +1,5 @@
 # type : ignore
+# file to be run on pico when in flight. Collects rotational data and altitude.
 import board
 import busio
 import digitalio
