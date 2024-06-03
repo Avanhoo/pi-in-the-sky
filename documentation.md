@@ -82,11 +82,9 @@ Where I had focused on the data filtering part of the code on the first prototyp
 
 ![image](https://github.com/Avanhoo/pi-in-the-sky/assets/113116247/b0eeb1c1-868f-458c-b9f4-96fc535ee742)
 
-<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/playback.gif?raw=true" width="400"> 
-
-
-
 Once the graph was working I wanted to make the data smoother, as even with the recording program running at maximum speed the data was coming in at ~0.3 second intervals. To do this I used scipy's spline interpolation. I created a spline for each recording axis, and switched from using the recording's time to a set delta time every cycle. This leaves me with a buttery smooth visualization of the plane's flight.
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/playback.gif?raw=true" width="300"> 
 
 ## Build
 
