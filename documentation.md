@@ -81,7 +81,8 @@ Here's what the whole front assembly looks like without the cover on.
 Where I had focused on the data filtering part of the code on the first prototype, I shifted to woking on data storage and analysis during this time. I switched to using new lines as separators instead of commas in my .csv file, and made it so that the recording program would only save a data point every set interval, instead of randomly, hundreds of times per second. On the data analysis side I created a program which reads the data.csv file and visualizes it at a 1:1 speed. I was going to graph it at first, but decided on using pygame to visualize each axis instead.
 
 ![image](https://github.com/Avanhoo/pi-in-the-sky/assets/113116247/b0eeb1c1-868f-458c-b9f4-96fc535ee742)
-<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/playback.gif?raw=true" width="800"> 
+
+<img src="https://github.com/Avanhoo/pi-in-the-sky/blob/main/images/playback.gif?raw=true" width="400"> 
 
 
 
